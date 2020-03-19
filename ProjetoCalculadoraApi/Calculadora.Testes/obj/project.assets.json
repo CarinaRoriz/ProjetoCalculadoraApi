@@ -1962,6 +1962,19 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Calculadora.Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Calculadora.Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Calculadora.Api.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -6569,10 +6582,16 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Calculadora.Api/1.0.0": {
+      "type": "project",
+      "path": "../Calculadora.Api/Calculadora.Api.csproj",
+      "msbuildProject": "../Calculadora.Api/Calculadora.Api.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Calculadora.Api >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "coverlet.collector >= 1.0.1",
       "xunit >= 2.4.0",
@@ -6585,11 +6604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Testes\\Calculadora.Testes.csproj",
+      "projectUniqueName": "d:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Testes\\Calculadora.Testes.csproj",
       "projectName": "Calculadora.Testes",
-      "projectPath": "D:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Testes\\Calculadora.Testes.csproj",
+      "projectPath": "d:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Testes\\Calculadora.Testes.csproj",
       "packagesPath": "C:\\Users\\carin\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Testes\\obj\\",
+      "outputPath": "d:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Testes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6602,7 +6621,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "d:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Api\\Calculadora.Api.csproj": {
+              "projectPath": "d:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Api\\Calculadora.Api.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
