@@ -17,7 +17,7 @@ namespace Calculadora.Testes
         {
             var result = _calculadoraService.Soma(1, 1);
 
-            Assert.Equal(result, 2);
+            Assert.Equal(2, result);
         }
 
         [Fact]
@@ -25,7 +25,7 @@ namespace Calculadora.Testes
         {
             var result = _calculadoraService.Subtracao(10, 1);
 
-            Assert.Equal(result, 9);
+            Assert.Equal(9, result);
         }
 
         [Fact]
@@ -33,7 +33,7 @@ namespace Calculadora.Testes
         {
             var result = _calculadoraService.Multiplicacao(10, 5);
 
-            Assert.Equal(result, 50);
+            Assert.Equal(50, result);
         }
 
         [Fact]
@@ -41,7 +41,7 @@ namespace Calculadora.Testes
         {
             var result = _calculadoraService.Divisao(100, 10);
 
-            Assert.Equal(result, 10);
+            Assert.Equal(10, result);
         }
     }
 }
