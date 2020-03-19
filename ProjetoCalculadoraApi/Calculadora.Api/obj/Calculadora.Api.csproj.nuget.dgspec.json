@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Api\\Calculadora.Api.csproj": {}
+    "d:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Api\\Calculadora.Api.csproj": {}
   },
   "projects": {
-    "D:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Api\\Calculadora.Api.csproj": {
+    "d:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Api\\Calculadora.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Api\\Calculadora.Api.csproj",
+        "projectUniqueName": "d:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Api\\Calculadora.Api.csproj",
         "projectName": "Calculadora.Api",
-        "projectPath": "D:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Api\\Calculadora.Api.csproj",
+        "projectPath": "d:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Api\\Calculadora.Api.csproj",
         "packagesPath": "C:\\Users\\carin\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Api\\obj\\",
+        "outputPath": "d:\\ProjetoCalculadoraApi\\ProjetoCalculadoraApi\\Calculadora.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carin\\AppData\\Roaming\\NuGet\\NuGet.Config"
