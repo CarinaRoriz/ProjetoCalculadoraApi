@@ -41,7 +41,7 @@ namespace Calculadora.Testes
         {
             var result = _calculadoraService.Divisao(100, 10);
 
-            Assert.Equal(9, result);
+            Assert.Equal(10, result);
         }
     }
 }
