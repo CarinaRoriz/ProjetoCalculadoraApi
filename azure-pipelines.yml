@@ -41,6 +41,7 @@ steps:
 
 - task: PublishTestResults@2
   inputs:
-    testRunner: VSTest
-    testResultsFiles: '**/*.trx'
+    testResultsFormat: 'XUnit'
+    testResultsFiles: '**/TEST-*.xml'
     failTaskOnFailedTests: true
+    testRunTitle: 'TestesCalculadora'
